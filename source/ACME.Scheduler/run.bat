@@ -1,0 +1,5 @@
+﻿@echo off
+ACME.Scheduler.exe --email=email@email.com --work-folder=C:\data\credentials\staging --domain=www.yourdomain.com --bits=2048 --ftp=ftp://your-ip-or-domain-name:21/ --root=httpdocs/ --username=yourusername --password=yourpassword --debug=false --staging=true
+:: Other possibilities
+:: ACME.Scheduler.exe --email=email@email.com --work-folder=C:\data\credentials\staging --domain=www.yourdomain.com --bits=2048 --ftp=ftp://your-ip-or-domain-name:21/ ftp://your-ip-or-domain-name:21/ --root=httpdocs/ httpdocs/ --username=yourusername yourusername --password=yourpassword yourpassword --debug=false --staging=true
+:: ACME.Scheduler.exe --email=email@email.com --work-folder=C:\data\credentials\staging --domain=www.yourdomain.com --bits=2048 --ftp=ftp://your-ip-or-domain-name:21/ ftp://your-ip-or-domain-name:21/ --username=yourusername yourusername --password=yourpassword yourpassword --debug=false --staging=true
